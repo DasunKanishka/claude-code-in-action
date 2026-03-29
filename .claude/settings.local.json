@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(osascript -e 'tell application \"\"Firefox\"\" to activate')",
+      "Bash(screencapture -x /tmp/uigen_browser.png)",
+      "Bash(osascript:*)",
+      "Bash(screencapture -x /tmp/uigen_browser3.png)"
+    ]
+  }
+}
